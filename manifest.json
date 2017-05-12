@@ -1,0 +1,54 @@
+{
+	"name": "Framaestro",
+	"id": "framaestro",
+	"packaging_format": 1,
+	"requirements": {
+		"yunohost": ">= 2.4"
+	},
+	"description": {
+		"en": "Online service aggregator",
+		"fr": "Aggrégateur de services en ligne"
+	},
+	"url": "https://framagit.org/framasoft/framaestro",
+	"license": "MIT",
+	"maintainer": {
+		"name": "ldidry",
+		"email": "luc@framasoft.org"
+	},
+	"multi_instance": false,
+	"services": [
+		"nginx"
+	],
+	"arguments": {
+		"install" : [
+			{
+				"name": "domain",
+				"type": "domain",
+				"ask": {
+					"en": "Choose a domain for Framaestro",
+					"fr": "Choisissez un domaine pour Framaestro"
+				},
+				"example": "domain.org"
+			},
+			{
+				"name": "path",
+				"type": "path",
+				"ask": {
+					"en": "Choose a path for Framaestro",
+					"fr": "Choisissez un chemin pour Framaestro"
+				},
+				"example": "/maestro",
+				"default": "/maestro"
+			},
+			{
+				"name": "is_public",
+				"type": "boolean",
+				"ask": {
+					"en": "Is it a public application?",
+					"fr": "Est-ce une application publique ?"
+				},
+				"default": false
+			}
+		]
+	}
+}
