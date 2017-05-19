@@ -6,8 +6,8 @@
 		"yunohost": ">= 2.4"
 	},
 	"description": {
-		"en": "Online service aggregator",
-		"fr": "Aggrégateur de services en ligne"
+		"en": "Online service aggregator. If you want have a real-time collaborative framaestro, install framaestro_hub (work in progress)",
+		"fr": "Aggrégateur de services en ligne. Si vous souhaitez avoir un framaestro collaboratif en temps réel, installez framaestro_hub (en cours de développement)"
 	},
 	"url": "https://framagit.org/framasoft/framaestro",
 	"license": "MIT",

@@ -5,7 +5,7 @@ var framaServices = Array();
 /** <settings> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
 jitsi = 'https://framatalk.org';
 kiwi = 'https://kiwiirc.com/client/';
-together = 'https://__TOGETHERJS__';
+//together = 'https://__TOGETHERJS__';
 
 framaServices = {
 }

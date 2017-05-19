@@ -58,7 +58,6 @@ sudo sed -i "s@__FINALPATH__@$final_path@g" /etc/nginx/conf.d/$domain.d/$app.con
 
 ## Copy config
 sudo cp ../conf/config.js "${final_path}/p/config.js"
-sudo sed -i "s@.*TOGETHERJS.*@@" "${final_path}/p/config.js"
 
 
 # Make app public or private
