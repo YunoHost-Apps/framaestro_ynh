@@ -3,6 +3,8 @@
 
 # framaestro_ynh
 
+[![Integration level](https://dash.yunohost.org/integration/framaestro.svg)](https://dash.yunohost.org/appci/app/framaestro) ![](https://ci-apps.yunohost.org/ci/badges/framaestro.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/framaestro.maintain.svg)
+
 Seems to work, but need some testing.
 
 # Important!
